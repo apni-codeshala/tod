@@ -1,0 +1,66 @@
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    width: 50vw;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.todoContent {
+    max-width: 38vw;
+    overflow: hidden;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item .edit-button,
+.todo-item .update-button,
+.todo-item .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.todo-item .edit-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.todo-item .edit-button:hover {
+    background-color: #e0a800;
+}
+
+.todo-item .update-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.todo-item .update-button:hover {
+    background-color: #218838;
+}
+
+.todo-item .delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.todo-item .delete-button:hover {
+    background-color: #c82333;
+}
