@@ -5,6 +5,14 @@
     width: 50vw;
 }
 
+@media only screen and (max-width: 700px) {
+    .todo-list {
+        width: 83%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}  
+
 .todo-item {
     display: flex;
     align-items: center;
