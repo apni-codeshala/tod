@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { Profiler } from 'react'
 import { store } from './features/store.js'
 import { Provider } from 'react-redux'
 
